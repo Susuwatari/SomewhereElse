@@ -1,6 +1,8 @@
 Project: SomewhereElse
 Author: Philip Ng
 
-SomewhereElse will be a set of templates based on the modular PHP code that I made and have used/refined on a few websites. Basically just stripped down versions of the actual site code.
+SomewhereElse will be a partial set of templates based on the modular PHP code that I made and have used/refined on a few websites. Basically just stripped down versions of the actual site code.
 
-I may eventually create a repo for the full or nearly full code as an example, but not sure.
+The template was pulled from the simplest site I've worked on, the front page for wanderingsoot.com, with very few modifications (it was, in fact, made mostly to setup a template-like page). This is why the sidebar still contains an example of some Wordpress integration, rather than custom scoreboards or some other module.
+
+I may eventually add additional code in or examples from the full sites, but not sure if or when. A lot of the more interesting code was done as part of sensitive things like the control panels handling most of the dynamic content (not included) or very specific modules for certain sites, particularly in different variations of that right sidebar. In particular, there's a lot of work for custom tables/queries that will likely not ever be put in here.

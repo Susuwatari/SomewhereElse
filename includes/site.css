@@ -1,0 +1,114 @@
+<style type="text/css"> 
+<!-- 
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #<?php echo $bgcolor; ?>;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #<?php echo $bodycolor; ?>;
+	background-color: #<?php echo $bgcolor; ?>;
+}
+table, tr, td {
+	text-align: center;
+	font-size:1em;
+}
+p {
+	font-size:.8em;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+/* Normal, standard links. */
+a:link
+{
+	color: #<?php echo $linkcolor; ?>;
+	text-decoration: none;
+}
+a:link.override {
+	color: #<?php echo $middleboxcolor; ?>;
+	text-decoration: underline;
+}
+a:visited
+{
+	color: #<?php echo $visitedcolor; ?>;
+	text-decoration: none;
+}
+a:visited.override {
+	color: #<?php echo $middleboxcolor; ?>;
+	text-decoration: underline;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+/* No image should have a border when linked */
+a img
+{
+	border: 0;
+}
+/* Tables */
+#centertd {
+	width: 100%;
+	text-align: center;
+}
+/* Corners and Boxes */
+#bluebox {
+  background: #<?php echo $rightboxcolor; ?>;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+#bluebox1 {
+}
+#bluebox2 {
+}
+#bluebox3 {
+  padding: 18px;
+}
+#tealbox {
+  background: #<?php echo $unusedboxcolor; ?>;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+#tealbox1 {
+}
+#tealbox2 {
+}
+#tealbox3 {
+  padding: 18px;
+}
+#dbluebox {
+  background: #<?php echo $leftboxcolor; ?>;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+#dbluebox1 {
+}
+#dbluebox2 {
+}
+#dbluebox3 {
+  padding: 18px;
+}
+#ftealbox {
+  background: #<?php echo $middleboxcolor; ?>;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+#ftealbox1 {
+}
+#ftealbox2 {
+}
+#ftealbox3 {
+  padding: 18px;
+}
+
+--> 
+</style>
