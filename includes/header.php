@@ -24,10 +24,10 @@
 <td valign="bottom">
 <?php 
 	if (!isset($_SESSION['loggedIn'])) {
-		//echo '<a href="/usercp.php"><b>User Login</b></a><br><br>';
+		//echo '<a href="/controlpanel.php"><b>User Login</b></a><br><br>';
 	}
 	else {
-		echo '<a href="/usercp.php"><b>Control Panel</b></a>';
+		echo '<a href="/controlpanel.php"><b>Control Panel</b></a>';
 	}
 ?>
 </td>
