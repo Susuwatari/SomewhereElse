@@ -123,7 +123,7 @@ elseif ($_GET['stage'] == "newsedit" && $_SESSION['status'] == 'Admin') {
 	$numresults = mysql_num_rows($result);
 	echo '<center><h1>All News</h1><table>';
 	while ($row = mysql_fetch_array($result)) {
-		$editID = '&title=' . stripcslashes($row['NewsTitle']) . '&timestamp=' . $row['NewsTimestamp'];
+		$editID = '&title=' . urlencode(stripcslashes($row['NewsTitle'])) . '&timestamp=' . $row['NewsTimestamp'];
 		echo '<tr><td>' . stripcslashes($row['NewsTitle']) . ' </td><td><a href="controlpanel.php?stage=newsedit2&action=edit' . $editID . '">Edit</a> </td><td><a href="controlpanel.php?stage=newsedit2&action=delete' . $editID . '" onclick="return confirm(\'Are you sure you want to delete this?\');">Delete</a></td></tr>';
 	}
 	echo '</table></center>';
